@@ -22,7 +22,7 @@ $id = $_GET["id"];
 
 
 
-	$query 	= "UPDATE t0 SET id='$id', dept='$dept', name='$name', nid='$nid', birth='$birth', address='$address' WHERE id = $id";
+	$query 	= "UPDATE student SET id='$id', dept='$dept', name='$name', nid='$nid', birth='$birth', address='$address' WHERE id = $id";
 
 	echo $query;
 
