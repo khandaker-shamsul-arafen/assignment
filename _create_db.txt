@@ -1,0 +1,5 @@
+create database schoolmgmt;
+CREATE TABLE student(id int AUTO_INCREMENT, dept Char Not null,name char,birth char,address char,CONSTRAINT var PRIMARY KEY(id));
+CREATE TABLE teacher(id int AUTO_INCREMENT, dept Char Not null,name char,birth char,address char,CONSTRAINT var1 PRIMARY KEY(id));
+CREATE TABLE course(id int AUTO_INCREMENT, dept Char Not null,title char,credit int ,syllabus char,CONSTRAINT var2 PRIMARY KEY(id));
+CREATE TABLE payment(payment_id int AUTO_INCREMENT,student_id int, amount Char ,date char,CONSTRAINT var3 PRIMARY KEY(payment_id))
