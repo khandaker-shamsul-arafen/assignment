@@ -2,16 +2,6 @@
 
 $id = $_GET["id"];
 
-$dept = $_GET["dept"];
-
-$name = $_GET["name"];
-
-$nid = $_GET["nid"];
-
-$birth = $_GET["birth"];
-
-$address = $_GET["address"];
-
 ?>
 
 
