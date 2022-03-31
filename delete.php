@@ -12,7 +12,7 @@
 
 
 
-	mysqli_query( $connect, "DELETE FROM student WHERE id=$id" )
+	mysqli_query( $connect, "DELETE FROM teacher WHERE id=$id" )
 
 		or die("Can not execute query");
 
@@ -22,6 +22,6 @@
 
 
 
-	echo "<p><a href=read.php>READ all records</a>";
+	echo "<p><a href=read_teacher.php>READ  records</a>";
 
 ?>
