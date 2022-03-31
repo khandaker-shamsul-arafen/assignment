@@ -20,7 +20,7 @@
 		 $birth ;
 		 $address;
 		echo "<td> <a href = 'delete.php?id=$id'> Delete </a> </td>";
-		echo "<td> <a href = 'update_input.php?id=$id&f0=$f0&f1=$f1'> Update </a> </td>";
+		echo "<td> <a href = 'update_input.php?id=$id'> Update </a> </td>";
 		echo "</tr> \n";
 	}
 
