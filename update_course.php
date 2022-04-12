@@ -1,6 +1,6 @@
 <h1>Update Course</h1>
 <?php
-require_once "includes/dbcon.php";
+require_once "db_connect.php";
 $id = $_GET['id'];
 $query = "SELECT * FROM course WHERE id = $id";
 $result = mysqli_query($conn, $query);

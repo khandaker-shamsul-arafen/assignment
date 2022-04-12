@@ -6,7 +6,7 @@
     $syllabus = $_POST['syllabus'] ;
 
     //Database
-    require_once "includes/dbcon.php";
+    require_once "db_connect.php";
     $query ="INSERT INTO course (id,dept,title,credit,syllabus) VALUES ('$id','$dept','$title','$credit','$syllabus')";
     mysqli_query($conn,$query);
     header("location:index.php")
