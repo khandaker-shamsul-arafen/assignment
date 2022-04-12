@@ -9,15 +9,15 @@ $result = mysqli_query($conn, $query);
     <?php
     foreach ($result as $payment) {
     ?>
-        <label>Payment Id</label> <br>
+        <label>Payment id</label> <br>
         <input readonly name="payment_id" value=<?=$payment['payment_id']?>> <br>
-        <label>Student Id</label> <br>
+        <label>Student id</label> <br>
         <input readonly name="student_id" value=<?=$payment['student_id']?>> <br>
         <label>Amount</label> <br>
         <input value=<?=$payment['amount']?> type="text" name="amount"> <br>
-        <label>Payment Date</label> <br>
+        <label>Date of payment</label> <br>
         <input name="payment_date" value=<?=$payment['payment_date']?> type="text"> <br>
-        <button type="submit">Update</button>
+        <button type="submit">Update payment</button>
 </form>
 <?php
     }
